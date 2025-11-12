@@ -1,6 +1,6 @@
 # 🚗 Vehicle Management System (Java OOP Project)
 
-![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
+![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java)
 ![OOP](https://img.shields.io/badge/Object%20Oriented%20Programming-blue?style=for-the-badge)
 ![University](https://img.shields.io/badge/University%20of%20Kelaniya-Sri%20Lanka-9cf?style=for-the-badge)
 
@@ -35,25 +35,6 @@ It demonstrates:
 
 ---
 
-## 🗂️ Code Structure
-src/
-└── Task03
-├── Vehicle
-│ ├── Vehicle.java 
-│ ├── Car.java 
-│ ├── Truck.java 
-│ └── Motorcycle.java 
-│
-├── payments
-│ ├── PaymentMethod.java 
-│ ├── CreditCard.java
-│ ├── PayPal.java 
-│ └── BankTransfer.java 
-│
-├── Checkout.java 
-├── LeaseContract.java
-└── Main.java 
----
 
 ## ⚙️ How to Run
 
