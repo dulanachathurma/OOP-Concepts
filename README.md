@@ -2,8 +2,6 @@
 
 ![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java)
 ![OOP](https://img.shields.io/badge/Object%20Oriented%20Programming-blue?style=for-the-badge)
-![University](https://img.shields.io/badge/University%20of%20Kelaniya-Sri%20Lanka-9cf?style=for-the-badge)
-
 
 ---
 
