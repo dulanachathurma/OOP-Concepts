@@ -3,7 +3,7 @@
 ![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
 ![OOP](https://img.shields.io/badge/Object%20Oriented%20Programming-blue?style=for-the-badge)
 ![University](https://img.shields.io/badge/University%20of%20Kelaniya-Sri%20Lanka-9cf?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 
 ---
 
@@ -37,23 +37,22 @@ It demonstrates:
 
 ## 🗂️ Code Structure
 src/
-└── Task03/
-├── Vehicle/
-│ ├── Vehicle.java // Abstract base class
-│ ├── Car.java // Subclass: Car
-│ ├── Truck.java // Subclass: Truck
-│ └── Motorcycle.java // Subclass: Motorcycle
+└── Task03
+├── Vehicle
+│ ├── Vehicle.java 
+│ ├── Car.java 
+│ ├── Truck.java 
+│ └── Motorcycle.java 
 │
-├── payments/
-│ ├── PaymentMethod.java // Interface
-│ ├── CreditCard.java // Implementation
-│ ├── PayPal.java // Implementation
-│ └── BankTransfer.java // Implementation
+├── payments
+│ ├── PaymentMethod.java 
+│ ├── CreditCard.java
+│ ├── PayPal.java 
+│ └── BankTransfer.java 
 │
-├── Checkout.java // Handles payments
-├── LeaseContract.java // Combines Vehicle + PaymentMethod
-└── Main.java // Entry point
-
+├── Checkout.java 
+├── LeaseContract.java
+└── Main.java 
 ---
 
 ## ⚙️ How to Run
