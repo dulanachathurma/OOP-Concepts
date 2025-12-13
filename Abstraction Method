@@ -1,1 +1,68 @@
+// Main class
+
+public class Main {
+    public static void main(String[] args) {
+   var employee = new Employee();
+   employee.setBaseSalary(50_000);
+
+
+   employee.setHourlyRate(20);
+
+   int wage = employee.calculateWage(10);
+   System.out.println(wage);
+    }
+}
+
+
+// Employee class
+
+
+import java.sql.SQLOutput;
+
+public class Employee {
+    private int baseSalary;
+    private int hourlyRate;
+
+    public int calculateWage(int extraHours){
+        return baseSalary+ hourlyRate*extraHours;
+    }
+    //setters
+    public void setBaseSalary(int baseSalary){
+        if(baseSalary<0)
+            throw new IllegalArgumentException("Salary should be positive");
+        this.baseSalary = baseSalary;
+
+    }
+    public void setHourlyRate(int hourlyRate){
+        if(hourlyRate<0)
+            throw new IllegalArgumentException("Salary should be positive");
+        this.baseSalary = baseSalary;
+    }
+    //getter
+
+    public int getBaseSalary() {
+        return baseSalary;
+    }
+
+    public int getHourlyRate() {
+        return hourlyRate;
+    }
+}
+
+
+//TextBox class
+
+
+public class TextBox {
+
+    public String text;
+
+    public void setText(String text){
+        this.text=text;
+    }
+
+    public void clearText(){
+        text="";
+    }
+}
 
